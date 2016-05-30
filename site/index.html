@@ -1,8 +1,56 @@
 ---
 layout: default
 title: Test title
+custom_css:
+- home.css
 ---
 
-<h1>Hello, world!</h1>
+<div id="jumbotron">
+    <img src="{{ "/img/race-image.jpg" | prepend: site.baseurl }}" alt="People running">
 
-<p>This is a paragraph.</p>
+    <div id="slogan">
+        <h1>THE PREMIER<br>CLUB XC EVENT<br>OF THE SOUTHEAST.</h1>
+
+        <div id="register-button">
+            <a href="">REGISTER NOW</a>
+        </div>
+    </div>
+
+    <div id="jumbotron-gradient"></div>
+</div>
+
+<div class="icon col-md-3">
+    <img src="{{ "/img/road.svg" | prepend: site.baseurl }}" alt="Road icon">
+    <hr>
+    <p>5 kilometers</p>
+    <p>3.1 miles</p>
+</div>
+
+<div class="icon col-md-3">
+    <img src="{{ "/img/calendar.svg" | prepend: site.baseurl }}" alt="Calendar icon">
+    <hr>
+    <p>September 24</p>
+    <p>9:00 am - 11:15 am</p>
+</div>
+
+<div class="icon col-md-3">
+    <img src="{{ "/img/dollar.svg" | prepend: site.baseurl }}" alt="Dollar icon">
+    <hr>
+    <p>$15 / individual</p>
+    <p>$450 / club team</p>
+</div>
+
+<div class="icon col-md-3">
+    <img src="{{ "/img/pin.svg" | prepend: site.baseurl }}" alt="Pin icon">
+    <hr>
+    <p>Wake Med</p>
+    <p>Soccer Park, Cary</p>
+</div>
+
+<div id="message">
+    <h1>Welcome to the first annual NC State Club Invitational.</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit odio, aliquam ac ligula vitae, mattis suscipit massa. Etiam feugiat urna eu nunc mattis, efficitur varius neque blandit. Aliquam porttitor est vel ex convallis finibus. Maecenas ac lectus dolor. Nulla molestie, libero et dignissim vehicula, justo lacus hendrerit velit, vitae tincidunt nulla ipsum quis nibh. Aliquam erat volutpat. Donec vitae rhoncus sapien, non consequat lectus. Morbi vel mauris eget lectus rutrum mollis sit amet ut enim. Nullam et eros nec lorem tempus maximus non id tortor. Sed placerat, nisl non finibus iaculis, velit enim dictum orci, sit amet lobortis tellus lacus in dolor. Nullam varius odio est, ut suscipit nunc accumsan eget.
+    </p>
+    <h3>- Meet Management</h3>
+</div>

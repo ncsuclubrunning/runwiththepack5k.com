@@ -1,0 +1,100 @@
+---
+---
+
+#jumbotron {
+    position: relative;
+
+    #jumbotron-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.90;
+
+        /* http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.7+16,0.5+29,0.4+35,0.2+41,0.1+46,0+70 */
+        background: -moz-linear-gradient(left,
+            rgba(0,0,0,0.7) 0%,
+            rgba(0,0,0,0.7) 16%,
+            rgba(0,0,0,0.5) 29%,
+            rgba(0,0,0,0.4) 35%,
+            rgba(0,0,0,0.2) 41%,
+            rgba(0,0,0,0.1) 46%,
+            rgba(0,0,0,0) 70%,
+            rgba(0,0,0,0) 100%);
+        background: -webkit-linear-gradient(left,
+            rgba(0,0,0,0.7) 0%,
+            rgba(0,0,0,0.7) 16%,
+            rgba(0,0,0,0.5) 29%,
+            rgba(0,0,0,0.4) 35%,
+            rgba(0,0,0,0.2) 41%,
+            rgba(0,0,0,0.1) 46%,
+            rgba(0,0,0,0) 70%,
+            rgba(0,0,0,0) 100%);
+        background: linear-gradient(to right,
+            rgba(0,0,0,0.7) 0%,
+            rgba(0,0,0,0.7) 16%,
+            rgba(0,0,0,0.5) 29%,
+            rgba(0,0,0,0.4) 35%,
+            rgba(0,0,0,0.2) 41%,
+            rgba(0,0,0,0.1) 46%,
+            rgba(0,0,0,0) 70%,
+            rgba(0,0,0,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3000000', endColorstr='#00000000', GradientType=1);
+    }
+
+    #slogan {
+        position: absolute;
+        top: 20%;
+        left: 50px;
+
+        color: white;
+        font-family: "Antonio-Bold";
+        opacity: .7;
+        z-index: 100;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        #register-button {
+            display: inline-block;
+            background: url("{{ "/img/register-button.png" | prepend: site.baseurl }}") no-repeat center/100%;
+            width: 181px;
+            height: 50px;
+            text-align: center;
+            padding: 11px;
+
+            a {
+                color: white;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+.icon {
+    padding: 5%;
+
+    font-family: "Antonio";
+    text-align: center;
+    font-size: 1.3em;
+
+    hr {
+        border: none;
+        height: 4px;
+        color: #ccc;
+        background-color: #ccc;
+    }
+}
+
+#message {
+    h1, h3 {
+        font-family: "Antonio";
+        text-align: center;
+    }
+
+    p {
+        margin: 20px 15%;
+    }
+}
