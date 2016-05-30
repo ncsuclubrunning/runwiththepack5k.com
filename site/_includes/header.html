@@ -1,23 +1,23 @@
-<header>
-    This is the header.
-
-    <!--
+<header class="container">
     <nav>
-        <ul>
-            <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
-            <li><a href="{{ "/schedule/" | prepend: site.baseurl }}">Schedule</a></li>
-            <li><a href="{{ "/course-and-venue/" | prepend: site.baseurl }}">Course & Venue</a></li>
+        <div id="links-left-wrapper">
+            <ul id="links-left">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Course & Venue</a></li>
+            </ul>
+        </div>
 
-            <li id="nav-logo">
-                <a href="{{ site.baseurl }}">
-                    <img src="{{ "/img/logo-white.png" | prepend: site.baseurl }}" alt="Race logo">
-                </a>
-            </li>
+        <div id="links-right-wrapper">
+            <ul id="links-right">
+                <li><a href="#">Awards</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
 
-            <li><a href="{{ "/awards/" | prepend: site.baseurl }}">Awards</a></li>
-            <li><a href="{{ "/results/" | prepend: site.baseurl }}">Results</a></li>
-            <li><a href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
-        </ul>
+        <div id="logo-center">
+            <a href="#"><img src="{{ "/img/logo-transparent.png" | prepend: site.baseurl }}" alt="Logo"></a>
+        </div>
     </nav>
-    -->
 </header>

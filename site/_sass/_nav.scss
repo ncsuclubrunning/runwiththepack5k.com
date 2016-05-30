@@ -1,0 +1,58 @@
+$logo-width: 200px;
+$logo-height: 200px;
+
+nav {
+    position: relative;
+    height: $logo-height;
+
+    div#links-left-wrapper {
+        float: left;
+        padding: 0 ($logo-width / 2) 0 0;
+    }
+
+    div#links-right-wrapper {
+        float: right;
+        padding: 0 0 0 ($logo-width / 2);
+    }
+
+    div {
+        width: 50%;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            border-bottom: 2px solid black;
+            height: $logo-height * .15;
+            margin-top: $logo-height * .4;
+
+            li {
+                display: inline-block;
+                float: left;
+                width: 33.33333333%;
+                text-align: center;
+                font-size: 1.2em;
+                font-family: "Antonio";
+
+                a:link, a:hover, a:visited, a:focus {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+#logo-center {
+    width: $logo-width;
+    height: $logo-height;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 (-$logo-width / 2);
+    text-align: center;
+
+    img {
+        height: $logo-height;
+        width: auto;
+    }
+}
