@@ -1,3 +1,18 @@
+body {
+    border-top: 4px solid #cc0000;
+}
+
 img {
     width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Antonio";
+}
+
+#page-header {
+    text-align: center;
+    color: white;
+    background-color: #cc0000;
+    padding: 10px;
 }

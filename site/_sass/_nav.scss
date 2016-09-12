@@ -1,5 +1,5 @@
-$logo-width: 200px;
-$logo-height: 200px;
+$logo-width: 300px;
+$logo-height: 150px;
 
 nav {
     position: relative;
@@ -30,7 +30,7 @@ nav {
                 float: left;
                 width: 33.33333333%;
                 text-align: center;
-                font-size: 1.5em;
+                font-size: 1.3em;
                 font-family: "Antonio";
 
                 a:link, a:hover, a:visited, a:focus {
@@ -52,7 +52,8 @@ nav {
     text-align: center;
 
     img {
-        height: $logo-height;
-        width: auto;
+        margin-top: 30px;
+        width: $logo-width;
+        height: auto;
     }
 }

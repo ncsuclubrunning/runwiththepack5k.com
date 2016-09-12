@@ -2,22 +2,22 @@
     <nav>
         <div id="links-left-wrapper">
             <ul id="links-left">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Course & Venue</a></li>
+                <li><a href="{{ "/" | prepend:site.baseurl }}">Home</a></li>
+                <li><a href="{{ "/schedule/" | prepend: site.baseurl }}">Schedule</a></li>
+                <li><a href="{{ "/venue/" | prepend: site.baseurl }}">Venue</a></li>
             </ul>
         </div>
 
         <div id="links-right-wrapper">
             <ul id="links-right">
-                <li><a href="#">Awards</a></li>
-                <li><a href="#">Results</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ "/register/" | prepend: site.baseurl }}">Register</a></li>
+                <li><a href="{{ "/results/" | prepend: site.baseurl }}">Results</a></li>
+                <li><a href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
             </ul>
         </div>
 
         <div id="logo-center">
-            <a href="#"><img src="{{ "/img/race-logo.png" | prepend: site.baseurl }}" alt="Logo"></a>
+            <a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/img/race-logo.png" | prepend: site.baseurl }}" alt="Logo"></a>
         </div>
     </nav>
 </header>
