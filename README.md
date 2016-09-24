@@ -1,4 +1,4 @@
-Website for the NC State Club and Open Race
+Run with the Pack 5K
 ===========================================
 
-The name will surely change.
+This repository holds the website for the Run with the Pack 5K hosted by the Cross Country and Track Club at NC State University.
