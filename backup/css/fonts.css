@@ -1,0 +1,20 @@
+---
+---
+
+@font-face {
+    font-family: "Antonio";
+    src: url("{{ "/fonts/antonio-regular-webfont.woff2" | prepend: site.baseurl }}") format("woff2"),
+         url("{{ "/fonts/antonio-regular-webfont.woff" | prepend: site.baseurl }}") format("woff"),
+         url("{{ "/fonts/Antonio-Regular.ttf" | prepend: site.baseurl }}") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Antonio-Bold";
+    src: url("{{ "/fonts/antonio-bold-webfont.woff2" | prepend: site.baseurl }}") format("woff2"),
+         url("{{ "/fonts/antonio-bold-webfont.woff" | prepend: site.baseurl }}")  format("woff"),
+         url("{{ "/fonts/Antonio-Bold.ttf" | prepend: site.baseurl }}") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
