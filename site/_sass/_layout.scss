@@ -22,7 +22,7 @@ body {
     }
 }
 
-div.container {
+div.wrap {
    margin: 0 auto;
    padding-bottom: 150px;
  }
@@ -32,11 +32,12 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #efefef;
     text-align: center;
-
-    background-color: #2c2c2c;
-    text-align: center;
+    background-color: #202020;
+	
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
     padding: 10px;
 
     #footer-logos {
@@ -50,4 +51,28 @@ footer {
     p, a, a:link, a:hover, a:visited {
         color: #999;
     }
+}
+
+@media screen and (max-width: 669px) {
+    div.sidebar {
+        display: block;
+    }
+	.sidebar-toggle {
+		display: block;
+	}
+	header {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 670px) {
+    div.sidebar {
+        display: none;
+    }
+	.sidebar-toggle {
+		display: none;
+	}
+	header {
+		display: block;
+	}
 }

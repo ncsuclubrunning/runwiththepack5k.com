@@ -1,3 +1,35 @@
-title: NC State Club Invitational
-baseurl: ""
-markdown: kramdown
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+
+# Setup
+title:       Run With The Pack 5K
+baseurl:     ''
+markdown:    kramdown
+page_data:
+
+  - title: "Home"
+    id: "home"
+    url: ""
+
+  - title: "Schedule"
+    id: "schedule"
+    url: "schedule"
+
+  - title: "Venue"
+    id: "venue"
+    url: "venue"
+
+  - title: "Register"
+    id: "register"
+    url: "register"
+
+  - title: "Results"
+    id: "results"
+    url: "results"
+
+  - title: "Contact"
+    id: "contact"
+    url: "contact"
