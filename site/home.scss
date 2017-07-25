@@ -60,10 +60,10 @@
         #register-button {
             display: inline-block;
             background: url("{{ "/img/register-button.png" | prepend: site.baseurl }}") no-repeat center/100%;
-            width: 181px;
-            height: 50px;
+            width: 161px;
+            height: 40px;
             text-align: center;
-            padding: 11px;
+            padding: 6px;
 
             a {
                 color: white;
