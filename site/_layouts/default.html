@@ -8,9 +8,7 @@
 		{% include sidebar.html %}
 
         <div class="wrap">
-			<main>
 	        {{ content }}
-			<main>
         </div>
 
 		<label for="sidebar-checkbox" class="sidebar-toggle"></label>
@@ -29,8 +27,6 @@
             })(document);
         </script>
 
+		{% include footer.html %}
     </body>
-
-    {% include footer.html %}
-
 </html>
