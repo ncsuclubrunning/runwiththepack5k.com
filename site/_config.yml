@@ -8,6 +8,10 @@ permalink:           pretty
 title:       Run With The Pack 5K
 baseurl:     ''
 markdown:    kramdown
+email:       ncsu.cctrack.club@gmail.com
+
+
+
 page_data:
 
   - title: "Home"
