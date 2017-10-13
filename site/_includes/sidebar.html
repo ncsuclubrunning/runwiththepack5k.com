@@ -5,15 +5,15 @@
 <div class="sidebar" id="sidebar">
     <nav class="sidebar-nav">
         {% assign pages_list = site.page_data%}
-	{% for node in pages_list %}
-	{% if node.title != null %}
-	<a class="sidebar-nav-item{% if node.id == page.id %} active{% endif %}" href="{{ site.baseurl }}/{{ node.url }}">{{ node.title }}</a>
-	{% endif %}
+    {% for node in pages_list %}
+    {% if node.title != null %}
+    <a class="sidebar-nav-item{% if node.id == page.id %} active{% endif %}" href="{{ site.baseurl }}/{{ node.url }}">{{ node.title }}</a>
+    {% endif %}
         {% endfor %}
     </nav>
     <div class="sidebar-item">
         <p>
-	    &copy; {{ site.time | date: '%Y' }}. All rights reseved.
-	</p>
+        &copy; {{ site.time | date: '%Y' }}. All rights reseved.
+    </p>
     </div>
 </div>

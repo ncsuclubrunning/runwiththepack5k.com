@@ -2,17 +2,17 @@
 <html>
 
     {% include head.html %}
-	
+    
     <body class="theme-base">
-		{% include header.html %}
-		{% include sidebar.html %}
+        {% include header.html %}
+        {% include sidebar.html %}
 
         <div class="wrap">
-	        {{ content }}
+            {{ content }}
         </div>
 
-		<label for="sidebar-checkbox" class="sidebar-toggle"></label>
-		<script>
+        <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+        <script>
             (function(document) {
                 var toggle = document.querySelector('.sidebar-toggle');
                 var sidebar = document.querySelector('#sidebar');
@@ -27,6 +27,6 @@
             })(document);
         </script>
 
-		{% include footer.html %}
+        {% include footer.html %}
     </body>
 </html>
